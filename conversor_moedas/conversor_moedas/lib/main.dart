@@ -3,12 +3,13 @@ import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 
-const request = "https://api.hgbrasil.com/finance?format=json&key=60df7606";
+const request = "https://api.hgbrasil.com/finance?format=json&key=fd95925f";
 
 void main() async {
  // print(await getData());
 
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Home(),
     theme: ThemeData(hintColor: Colors.amber, primaryColor: Colors.white),
   ));
